@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif; /* Set font style to Mulish */
+    background-color: #F0F8FF; /* Updated page background color */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Ensure navbar and form are in column */
+    align-items: center;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(2, 4, 42); /* Navbar background color */
+    height: 48px; /* Navbar height */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center align the logo */
+    margin-bottom: 44px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo {
+    height: 36px; /* Logo height */
+}
+
+.form-heading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #F0F8FF; /* Updated form background color */
+    padding: 10px; /* Reduced padding */
+    border-radius: 10px;
+    width: 65%;
+    max-width: 65%;
+    max-height: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px; /* Reduced gap */
+}
+
+.left-column, .right-column {
+    width: 48%; /* Make columns take up equal space */
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Reduced gap */
+}
+
+.submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px; /* Reduced margin */
+}
+
+.form-group {
+    margin-bottom: 8px; /* Reduced gap between groups */
+}
+
+label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 4px; /* Increased margin for spacing */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 6px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #F0F8FF; /* Updated input box background color */
+}
+
+textarea {
+    height: 70px; /* Reduced height */
+    resize: none;
+    background-color: #F0F8FF; /* Updated textarea background color */
+}
+
+input[type="submit"] {
+    background-color: rgb(2, 4, 42); /* Updated color */
+    color: white;
+    padding: 6px 12px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(2, 4,420);
+}
+
+input[type="submit"] {
+    background-color: rgb(2, 4, 42); /* Updated color */
+    color: white;
+    padding: 6px 12px; /* Reduced padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(2, 4, 42); /* Updated hover color */
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: rgb(2, 4, 42); /* Updated focus color */
+    box-shadow: 0 0 5px rgba(2, 4, 42, 0.2);
+    outline: none;
+}
+
+select {
+    background-color: #F0F8FF; /* Updated list background color */
+}
