@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const hostel = document.getElementById("hostel");
     const roomType = document.getElementById("roomType");
 
+    // fdibdhc
     form.addEventListener("submit", function(event) {
         let valid = true;
         
